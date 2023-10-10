@@ -182,6 +182,7 @@ Error: authenticate(): has more than one overload, use .overload(<signature>) to
 
 
 function enumMethods(targetClass) {
+    
     var hook = Java.use(targetClass);
     var ownMethods = hook.class.getDeclaredMethods();
 
